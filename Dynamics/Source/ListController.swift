@@ -36,4 +36,11 @@ class ListController: UITableViewController {
 
         return cell
     }
+
+    //MARK: UITableViewDelegate
+
+    override func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
+        let viewController = items[indexPath.row].init()
+        navigationController?.pushViewController(viewController, animated: true)
+    }
 }
