@@ -14,6 +14,14 @@ class ListController: UITableViewController {
 
     private var items: [UIViewController.Type] = []
 
+    //MARK: Initialization
+
+    required init?(coder aDecoder: NSCoder) {
+        super.init(coder: aDecoder)
+
+        items.append(ImageFlickController.self)
+    }
+
     //MARK: UITableViewDataSource
 
     override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
