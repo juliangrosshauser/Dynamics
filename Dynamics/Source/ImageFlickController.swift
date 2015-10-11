@@ -14,6 +14,7 @@ class ImageFlickController: UIViewController {
 
     private var dynamicAnimator: UIDynamicAnimator!
     private var itemBehavior: UIDynamicItemBehavior!
+    private var collisionBehavior: UICollisionBehavior!
     private let image = UIImageView(image: UIImage(named: "ProfileImage.png"))
 
     //MARK: UIViewController
@@ -29,5 +30,9 @@ class ImageFlickController: UIViewController {
         itemBehavior = UIDynamicItemBehavior(items: [image])
         itemBehavior.resistance = 0.5
         dynamicAnimator.addBehavior(itemBehavior)
+
+        collisionBehavior = UICollisionBehavior(items: [image])
+        collisionBehavior.translatesReferenceBoundsIntoBoundary = true
+        dynamicAnimator.addBehavior(collisionBehavior)
     }
 }
