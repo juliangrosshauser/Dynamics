@@ -13,6 +13,7 @@ class ImageFlickController: UIViewController {
     //MARK: Properties
 
     private var dynamicAnimator: UIDynamicAnimator!
+    private let image = UIImageView(image: UIImage(named: "ProfileImage.png"))
 
     //MARK: UIViewController
 
@@ -20,5 +21,8 @@ class ImageFlickController: UIViewController {
         super.viewDidLoad()
 
         dynamicAnimator = UIDynamicAnimator(referenceView: view)
+
+        image.center = view.center
+        view.addSubview(image)
     }
 }

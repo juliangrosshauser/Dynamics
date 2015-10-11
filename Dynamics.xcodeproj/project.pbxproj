@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B99B9C191BC9BE7D002A0C4B /* ProfileImage.png in Resources */ = {isa = PBXBuildFile; fileRef = B99B9C181BC9BE7D002A0C4B /* ProfileImage.png */; };
 		B9CC6EAF1BC86BA10027677B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B9CC6EA61BC86BA10027677B /* Assets.xcassets */; };
 		B9CC6EB11BC86BA10027677B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9CC6EA91BC86BA10027677B /* AppDelegate.swift */; };
 		B9CC6EB21BC86BA10027677B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B9CC6EAB1BC86BA10027677B /* LaunchScreen.storyboard */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B99B9C181BC9BE7D002A0C4B /* ProfileImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ProfileImage.png; sourceTree = "<group>"; };
 		B9CC6E731BC86A610027677B /* Dynamics.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dynamics.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B9CC6E871BC86A610027677B /* DynamicsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DynamicsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B9CC6E921BC86A610027677B /* DynamicsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DynamicsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -111,6 +113,7 @@
 			children = (
 				B9CC6EA61BC86BA10027677B /* Assets.xcassets */,
 				B9CC6EA71BC86BA10027677B /* Info.plist */,
+				B99B9C181BC9BE7D002A0C4B /* ProfileImage.png */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -291,6 +294,7 @@
 				B9CC6EB21BC86BA10027677B /* LaunchScreen.storyboard in Resources */,
 				B9CC6EB31BC86BA10027677B /* Main.storyboard in Resources */,
 				B9CC6EAF1BC86BA10027677B /* Assets.xcassets in Resources */,
+				B99B9C191BC9BE7D002A0C4B /* ProfileImage.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
