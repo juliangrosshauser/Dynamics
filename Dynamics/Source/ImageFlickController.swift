@@ -8,4 +8,17 @@
 
 import UIKit
 
-class ImageFlickController: UIViewController {}
+class ImageFlickController: UIViewController {
+
+    //MARK: Properties
+
+    private var dynamicAnimator: UIDynamicAnimator!
+
+    //MARK: UIViewController
+
+    override func viewDidLoad() {
+        super.viewDidLoad()
+
+        dynamicAnimator = UIDynamicAnimator(referenceView: view)
+    }
+}
