@@ -18,6 +18,7 @@ class ListController: UITableViewController {
 
     required init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
+        title = "Dynamics"
 
         items.append((title: "Image Flick", controller: ImageFlickController.self))
     }
