@@ -12,14 +12,14 @@ class ListController: UITableViewController {
 
     //MARK: Properties
 
-    private var items: [UIViewController.Type] = []
+    private var items: [(title: String, controller: UIViewController.Type)] = []
 
     //MARK: Initialization
 
     required init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
 
-        items.append(ImageFlickController.self)
+        items.append((title: "Image Flick", controller: ImageFlickController.self))
     }
 
     //MARK: UITableViewDataSource
@@ -32,7 +32,7 @@ class ListController: UITableViewController {
         let cell = tableView.dequeueReusableCellWithIdentifier("ItemCell")!
 
         let item = items[indexPath.row]
-        cell.textLabel?.text = String(item)
+        cell.textLabel?.text = item.title
 
         return cell
     }
@@ -40,7 +40,7 @@ class ListController: UITableViewController {
     //MARK: UITableViewDelegate
 
     override func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
-        let viewController = items[indexPath.row].init()
+        let viewController = items[indexPath.row].controller.init()
         navigationController?.pushViewController(viewController, animated: true)
     }
 }
