@@ -33,6 +33,7 @@ class ListController: UITableViewController {
 
         let item = items[indexPath.row]
         cell.textLabel?.text = item.title
+        cell.detailTextLabel?.text = String(item.controller)
 
         return cell
     }
