@@ -21,6 +21,7 @@ class ListController: UITableViewController {
         title = "Dynamics"
 
         items.append((title: "Image Flick", controller: ImageFlickController.self))
+        items.append((title: "Gyroscope", controller: GyroscopeController.self))
     }
 
     //MARK: UITableViewDataSource
