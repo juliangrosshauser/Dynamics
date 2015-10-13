@@ -16,6 +16,7 @@
 		B9CC6EC11BC86BCD0027677B /* DynamicsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9CC6EBF1BC86BCD0027677B /* DynamicsUITests.swift */; };
 		B9CC6EC31BC86DF10027677B /* ListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9CC6EC21BC86DF10027677B /* ListController.swift */; };
 		B9DF78201BC9B6BD002DF08B /* ImageFlickController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9DF781F1BC9B6BD002DF08B /* ImageFlickController.swift */; };
+		B9F98A521BCDB32E00A138F4 /* GyroscopeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9F98A511BCDB32E00A138F4 /* GyroscopeController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		B9CC6EBF1BC86BCD0027677B /* DynamicsUITests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DynamicsUITests.swift; sourceTree = "<group>"; };
 		B9CC6EC21BC86DF10027677B /* ListController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListController.swift; sourceTree = "<group>"; };
 		B9DF781F1BC9B6BD002DF08B /* ImageFlickController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageFlickController.swift; sourceTree = "<group>"; };
+		B9F98A511BCDB32E00A138F4 /* GyroscopeController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GyroscopeController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,6 +125,7 @@
 			children = (
 				B9CC6EA91BC86BA10027677B /* AppDelegate.swift */,
 				B9CC6EC21BC86DF10027677B /* ListController.swift */,
+				B9F98A511BCDB32E00A138F4 /* GyroscopeController.swift */,
 				B9DF781F1BC9B6BD002DF08B /* ImageFlickController.swift */,
 			);
 			path = Source;
@@ -322,6 +325,7 @@
 				B9CC6EB11BC86BA10027677B /* AppDelegate.swift in Sources */,
 				B9CC6EC31BC86DF10027677B /* ListController.swift in Sources */,
 				B9DF78201BC9B6BD002DF08B /* ImageFlickController.swift in Sources */,
+				B9F98A521BCDB32E00A138F4 /* GyroscopeController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
