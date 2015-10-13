@@ -7,5 +7,11 @@
 //
 
 import UIKit
+import CoreMotion
 
-class GyroscopeController: UIViewController {}
+class GyroscopeController: UIViewController {
+
+    //MARK: Properties
+
+    private let motionManager = CMMotionManager()
+}
