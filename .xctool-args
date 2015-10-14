@@ -1,0 +1,7 @@
+[
+  "-project", "Dynamics.xcodeproj",
+  "-scheme", "Dynamics",
+  "-configuration", "Debug",
+  "-sdk", "iphonesimulator",
+  "-destination", "name=iPhone 6s Plus"
+]
