@@ -27,6 +27,14 @@ class ListController: UITableViewController {
     required init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
     }
+
+    //MARK: UIViewController
+
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        tableView.registerClass(ListCell.self, forCellReuseIdentifier: String(ListCell))
+    }
+
     //MARK: UITableViewDataSource
 
     override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
