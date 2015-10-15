@@ -42,7 +42,7 @@ class ListController: UITableViewController {
     }
 
     override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCellWithIdentifier("ItemCell")!
+        let cell = tableView.dequeueReusableCellWithIdentifier(String(ListCell)) as! ListCell
 
         let item = items[indexPath.row]
         cell.textLabel?.text = item.title
