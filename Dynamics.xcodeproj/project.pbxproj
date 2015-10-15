@@ -11,7 +11,6 @@
 		B9CC6EAF1BC86BA10027677B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B9CC6EA61BC86BA10027677B /* Assets.xcassets */; };
 		B9CC6EB11BC86BA10027677B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9CC6EA91BC86BA10027677B /* AppDelegate.swift */; };
 		B9CC6EB21BC86BA10027677B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B9CC6EAB1BC86BA10027677B /* LaunchScreen.storyboard */; };
-		B9CC6EB31BC86BA10027677B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B9CC6EAD1BC86BA10027677B /* Main.storyboard */; };
 		B9CC6EBA1BC86BC40027677B /* DynamicsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9CC6EB81BC86BC40027677B /* DynamicsTests.swift */; };
 		B9CC6EC11BC86BCD0027677B /* DynamicsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9CC6EBF1BC86BCD0027677B /* DynamicsUITests.swift */; };
 		B9CC6EC31BC86DF10027677B /* ListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9CC6EC21BC86DF10027677B /* ListController.swift */; };
@@ -135,7 +134,6 @@
 			isa = PBXGroup;
 			children = (
 				B9CC6EAB1BC86BA10027677B /* LaunchScreen.storyboard */,
-				B9CC6EAD1BC86BA10027677B /* Main.storyboard */,
 			);
 			path = Storyboards;
 			sourceTree = "<group>";
@@ -295,7 +293,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				B9CC6EB21BC86BA10027677B /* LaunchScreen.storyboard in Resources */,
-				B9CC6EB31BC86BA10027677B /* Main.storyboard in Resources */,
 				B9CC6EAF1BC86BA10027677B /* Assets.xcassets in Resources */,
 				B99B9C191BC9BE7D002A0C4B /* ProfileImage.png in Resources */,
 			);
@@ -367,14 +364,7 @@
 				B9CC6EAC1BC86BA10027677B /* Base */,
 			);
 			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-		B9CC6EAD1BC86BA10027677B /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B9CC6EAE1BC86BA10027677B /* Base */,
-			);
-			name = Main.storyboard;
+			path = ../Storyboards;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
