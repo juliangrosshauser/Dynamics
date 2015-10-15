@@ -16,14 +16,17 @@ class ListController: UITableViewController {
 
     //MARK: Initialization
 
-    required init?(coder aDecoder: NSCoder) {
-        super.init(coder: aDecoder)
+    init() {
+        super.init(style: .Plain)
         title = "Dynamics"
 
         items.append((title: "Image Flick", controller: ImageFlickController.self))
         items.append((title: "Gyroscope", controller: GyroscopeController.self))
     }
 
+    required init?(coder aDecoder: NSCoder) {
+        super.init(coder: aDecoder)
+    }
     //MARK: UITableViewDataSource
 
     override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
